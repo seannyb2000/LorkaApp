@@ -1,0 +1,47 @@
+.header
+{
+    padding-top: 2%;
+    padding-bottom: .5%;;
+    background-color: white;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+.navbar li
+{
+    margin-top: 3%;
+    padding: 20px ;
+    font-size: large;
+}
+.navbar li:hover
+{
+    padding: 20px ;
+    border-bottom: 7px solid darkolivegreen;
+    transition: border-bottom .5s ease-in;
+    font-size: large;
+}
+.navbar 
+{
+    color: black;
+    display: flex;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#PageHeader
+{
+    color: black;
+    -webkit-text-stroke: 2px darkolivegreen; /* For WebKit browsers (Safari, Chrome) */
+    stroke: 1px darkolivegreen; /* Standard property */
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-left: 15%;
+}
+
+.logo
+{
+    float: right;
+    width: 15%;
+}
